@@ -7,9 +7,9 @@ export default defineConfig({
   },
   build: {
     lib: {
-      entry: "./lib/main.ts",
-      name: "Counter",
-      fileName: "counter",
+      entry: "./lib/main.tsx",
+      name: "I18n",
+      fileName: "i18n",
     },
   },
 });
