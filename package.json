@@ -1,19 +1,18 @@
 {
-  "name": "react-i18n",
-  "private": true,
+  "name": "@dunstack/i18n",
   "version": "0.0.0",
   "type": "module",
   "files": [
     "dist",
-    "index.d.ts"
+    "types/lib"
   ],
-  "main": "./dist/counter.umd.cjs",
-  "module": "./dist/counter.js",
-  "types": "./index.d.ts",
+  "main": "./dist/i18n.umd.cjs",
+  "module": "./dist/i18n.js",
+  "types": "./types/lib/main.d.ts",
   "exports": {
-    "types": "./index.d.ts",
-    "import": "./dist/counter.js",
-    "require": "./dist/counter.umd.cjs"
+    "types": "./types/lib/main.d.ts",
+    "import": "./dist/i18n.js",
+    "require": "./dist/i18n.umd.cjs"
   },
   "scripts": {
     "dev": "vite",
